@@ -6,3 +6,6 @@ let status;
     } else {
         status = "Sistema Seguro";
     }
+return { velocidadeFinal, status };
+}
+module.exports = calcularVelocidadeFinal;
