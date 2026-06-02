@@ -4,3 +4,7 @@ function monitorarTemperatura(leituras) {
         soma += leituras[i];
     }
     let media = soma / leituras.length;
+let precisaResfriamento = media > 45;
+    return { media, precisaResfriamento };
+}
+module.exports = monitorarTemperatura;
