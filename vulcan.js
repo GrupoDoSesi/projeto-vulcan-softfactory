@@ -10,3 +10,7 @@ function emitirAvisoPainel(statusMotor, precisaResfriamento) {
     } else {
         mensagemFinal += "[ESTÁVEL] Temperatura dentro do limite operacional.";
     }
+ return { dadosValidos, mensagemValidacao };
+}
+
+module.exports = validarDadosRobo;
