@@ -4,7 +4,6 @@
 * **Integrante B:** Lucas Rodrigues Silva, Geovanna Monteiro - Criou o sensores.js
 * **Integrante C:** Sanders Queiroz - Criou o app.js
 * **Integrante D:** Laís Pinheiro - Criou o alertas.js
-* **Integrante E:** Maria Clara Razoni - Criou o validacoes.js
 * **Integrante E:** Maria Clara Fonseca - Criou o validacoes.js
 
 ---
