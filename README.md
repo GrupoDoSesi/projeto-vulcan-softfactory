@@ -3,6 +3,7 @@
 * **Integrante A (Líder Técnico):** Ryan Rocha Cardoso - Criou o motor.js
 * **Integrante B:** Lucas Rodrigues Silva, Geovanna Monteiro - Criou o sensores.js
 * **Integrante C:** Sanders Queiroz - Criou o app.js
+* **Integrante D:** Laís Pinheiro - Criou o alertas.js
 
 ---
 
