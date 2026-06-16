@@ -1,16 +1,8 @@
-// alertas
-function emitirAvisoPainel(statusMotor, precisaResfriamento) {
-    let mensagemFinal = "";
 
-    if (statusMotor === "ALERTA DE SOBRECARGA") {
-        mensagemFinal += "[PERIGO] O motor atingiu velocidade crítica!\n";
-    }
- if (precisaResfriamento) {
-        mensagemFinal += "[CRÍTICO] Resfriamento de emergência ativado!";
-    } else {
-        mensagemFinal += "[ESTÁVEL] Temperatura dentro do limite operacional.";
-    }
- return { dadosValidos, mensagemValidacao };
-}
+function validarDadosRobo(velocidade, aceleracao) {
+    let dadosValidos = true;
 
-module.exports = validarDadosRobo;
+
+    if (velocidade < 0 || aceleracao < 0) {
+        dadosValidos = false;
+    }
