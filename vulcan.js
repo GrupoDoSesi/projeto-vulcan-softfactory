@@ -6,3 +6,7 @@ function validarDadosRobo(velocidade, aceleracao) {
         dadosValidos = false;
     }
    let mensagemValidacao = dadosValidos ? "Dados validados com sucesso." : "Erro: Valores negativos detectados!";
+return { dadosValidos, mensagemValidacao };
+}
+
+module.exports = validarDadosRobo;
